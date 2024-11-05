@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Publishing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id="event-title">welcome to this year's book fair</h1>
+    <nav>
+        <img src="images/Scholastic-Book-Fair.png" alt="">
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Join industry professionals to discuss the latest trends in publishing. Meet renowned authors and get exclusive insights into the publishing world!</h2>
+    <a href="register.html" class="btn">Register Now</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Book Publishing Event</p>
+  </footer>
+
+  <script>
+    const eventTitle = document.getElementById('event-title');
+    eventTitle.addEventListener('mouseover', () => {
+      eventTitle.style.backgroundColor = '#ADD8E6';
+    });
+  </script>
+</body>
+</html>
